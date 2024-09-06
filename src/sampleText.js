@@ -1,0 +1,2 @@
+ export const sampleText = '# Titre\n## Sous-titre \n### Titre plus profond\n Les paragraphes sont séparés\n par une ligne vide.\n\nAttributs *italique, **gras**,\n `monospace`, ~~rayé~~.\n\, 1. janbon\n 2. cornichon\n 3. pain\n\n Lien *[Anthony welc](https://www.youtube.com/results?search_query=anthony+welc)*\n\n Lien automatique : https://www.facebook.com/anthonywelc/ \n\n ```\n console.log ("hello");\n```'
+ 
