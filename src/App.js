@@ -1,24 +1,29 @@
-import logo from './logo.svg';
 import './App.css';
+import { Component, Fragment } from 'react';
+import { sampleText } from './sampleText';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Fragment>
+      
+      <div className="container">
+        <div className="row">
+          <div className="col-sm-6">
+            <textarea
+            value={sampleText} 
+            className = "form-control"
+            rows="35"/ >
+          </div> 
+          <div className="col-sm-6">
+            <div> 
+              {sampleText} 
+            </div>
+          </div> 
+        </div>
+      </div> 
+    </Fragment>
+
   );
 }
 
